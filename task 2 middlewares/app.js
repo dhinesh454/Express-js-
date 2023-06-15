@@ -16,9 +16,7 @@ app.use('/addproduct',(req,res,next)=>{
             res.send('<h1>Product Submitted!</h1>')
     });
 
-app.use('/',(req,res,next)=>{
-    res.send('<h1>Welcome to Home Page</h1>')
-});
+
 
 
 
